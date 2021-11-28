@@ -9,6 +9,8 @@ E浙理自动打卡
 
 #### 注3：驱动安装教程转载自https://blog.csdn.net/dingding_ting/article/details/116671013
 
+#### 注4：本仓库内置对应96.0.4664.45版本的Google驱动chromedriver.exe，若版本不匹配请根据教程自行更改
+
 #### 操作流程
 
 一、将账号密码写入“acc_pass.txt”中，请务必确保账号密码填写正确。
