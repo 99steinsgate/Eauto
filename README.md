@@ -5,7 +5,7 @@ E浙理自动打卡
 
 #### 注1：本程序默认用户安装了python环境
 
-#### 注2：建议使用Google浏览器
+#### 注2：本程序只支持Google浏览器
 
 #### 注3：驱动安装教程转载自https://blog.csdn.net/dingding_ting/article/details/116671013
 
