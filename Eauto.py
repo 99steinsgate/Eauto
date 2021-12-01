@@ -21,10 +21,12 @@ def get_info():
         for line in f.readlines():
             line = line.strip()
             if cnt == 0:
-                account_number = line[4:-1]
+                pos1 = line.find('"')
+                account_number = line[pos1+1:-1]
                 cnt += 1
             else:
-                password = line[4:-1]
+                pos1 = line.find('"')
+                password = line[pos1+1:-1]
     #声明变量
     global time
     # 请求url隐式等待15s
