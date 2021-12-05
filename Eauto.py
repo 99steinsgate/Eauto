@@ -36,6 +36,7 @@ def get_info():
 
 
 
+
     driver.find_element_by_xpath(
         '//*[@id="wrapper"]/div[1]/div/div[2]/div/div/div/div[1]/div[1]/div[1]/div[2]/input').clear()
 
@@ -106,33 +107,33 @@ def get_info():
     driver.implicitly_wait(3)
     temperature2 = driver.find_element_by_xpath('//*[@id="D21-0-0"]/div/span[1]/div').click()
     driver.implicitly_wait(3)
-    healthcode1 = driver.find_element_by_xpath('//*[@id="F26-0-0"]/div/span[1]/div')
+    healthcode1 = driver.find_element_by_xpath('//*[@id="F28-0-0"]/div/span[1]/div')
     driver.execute_script(js4, healthcode1)
     healthcode1.click()
     driver.implicitly_wait(3)
-    bigdatacode2 = driver.find_element_by_xpath('//*[@id="F27-0-0"]/div/span[1]/div').click()
+    bigdatacode2 = driver.find_element_by_xpath('//*[@id="F29-0-0"]/div/span[1]/div').click()
     driver.implicitly_wait(3)
-    yesorno3 = driver.find_element_by_xpath('//*[@id="F28-0-0"]/div/span[2]/div').click()
+    yesorno3 = driver.find_element_by_xpath('//*[@id="F30-0-0"]/div/span[2]/div').click()
     driver.implicitly_wait(3)
-    yesorno4 = driver.find_element_by_xpath('//*[@id="F29-0-0"]/div/span[2]/div').click()
+    yesorno4 = driver.find_element_by_xpath('//*[@id="F31-0-0"]/div/span[2]/div').click()
     driver.implicitly_wait(3)
-    yesorno5 = driver.find_element_by_xpath('//*[@id="F30-0-0"]/div/span[2]/div')
+    yesorno5 = driver.find_element_by_xpath('//*[@id="F32-0-0"]/div/span[2]/div')
     driver.execute_script(js4, yesorno5)
     yesorno5.click()
     driver.implicitly_wait(3)
-    yesorno6 = driver.find_element_by_xpath('//*[@id="F32-0-0"]/div/span[2]/div').click()
+    yesorno6 = driver.find_element_by_xpath('//*[@id="F34-0-0"]/div/span[2]/div').click()
     driver.implicitly_wait(3)
-    yesorno7 = driver.find_element_by_xpath('//*[@id="F34-0-0"]/div/span[1]/div/span').click()
+    yesorno7 = driver.find_element_by_xpath('//*[@id="F36-0-0"]/div/span[1]/div/span').click()
     driver.implicitly_wait(3)
 
     # 最后三个选项
-    last_yesorno1 = driver.find_element_by_xpath('//*[@id="F36-0-0"]/div/span[2]/div')
+    last_yesorno1 = driver.find_element_by_xpath('//*[@id="F38-0-0"]/div/span[2]/div')
     driver.execute_script(js4, last_yesorno1)
     last_yesorno1.click()
     driver.implicitly_wait(3)
-    last_yesorno2 = driver.find_element_by_xpath('//*[@id="F38-0-0"]/div/span[2]/div').click()
+    last_yesorno2 = driver.find_element_by_xpath('//*[@id="F40-0-0"]/div/span[2]/div').click()
     driver.implicitly_wait(3)
-    last_yesorno3 = driver.find_element_by_xpath('//*[@id="F40-0-0"]/div/span[2]/div').click()
+    last_yesorno3 = driver.find_element_by_xpath('//*[@id="F42-0-0"]/div/span[2]/div').click()
     driver.implicitly_wait(3)
 
     #提交
